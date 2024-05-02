@@ -1,0 +1,122 @@
+.bg-boda {
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.separador-header {
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.titulo-boda {
+    font-family: 'CandelesPro';
+    color: var(--cafe-boda);
+    font-size: 64px;
+}
+
+.foto-a {
+    width: 90%;
+}
+
+.foto-b {
+    width: 80%;
+}
+
+
+@media (max-width: 575px) {
+    .custom-container {
+      width: 85%;
+    }
+  }
+
+.sub-title-1 {
+    font-family: "Times New Roman", Times, serif;
+    color: var(--cafe-boda);
+}
+.sub-title-2 {
+    font-family: "Times New Roman", Times, serif;
+    color: var(--cafe-boda);
+    font-size: 2em;
+    font-weight: 900;
+    padding-bottom: 5%;
+}
+
+.img-separador {
+    width: 60%;
+}
+
+.bg-card-time {
+  background-image: url('./../assets/card-time.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+}
+.bg-card-time-l {
+    width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    left: 0%;
+    height: 100%;
+}
+.bg-card-time-r {
+    width: 80%;
+    height: 100%;
+}
+
+.title-time {
+    color: var(--cafe-boda);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+}
+
+.sub-title-time {
+    color: var(--cafe-boda);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding-bottom: 5vw;
+}
+
+
+.grid-container-time {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0px;
+}
+
+.grid-item-time {
+  padding: 0em;
+  font-size: 1em;
+  text-align: justify;
+}
+
+.btn-maps {
+  background-color: var(--cafe-boda);
+  color: var(--blanco-boda);
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5em;
+  box-shadow: none;
+  border: none;
+}
+
+.btn-number {
+  background-color: var(--cafe-boda);
+  color: var(--blanco-boda);
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5em;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 5%;
+}

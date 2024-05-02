@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('./assets/bg-boda.jpg');
+}
+
+@font-face {
+    font-family: CandelesPro;
+    src: url('./assets/fonts/CandlescriptPro.otf') format('opentype'),
+}
+
+
+:root {
+    --cafe-boda: #8b5e24;
+    --blanco-boda: #fff;
+}
