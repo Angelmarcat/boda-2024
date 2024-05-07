@@ -14,7 +14,7 @@
 .titulo-boda {
     font-family: 'CandelesPro';
     color: var(--cafe-boda);
-    font-size: 64px;
+    font-size: 3em;
 }
 
 .foto-a {
@@ -39,13 +39,23 @@
 .sub-title-2 {
     font-family: "Times New Roman", Times, serif;
     color: var(--cafe-boda);
-    font-size: 2em;
+    font-size: 1.1em;
     font-weight: 900;
+    padding-bottom: 5%;
+}
+
+.sub-title-3 {
+    font-family: "Times New Roman", Times, serif;
+    color: var(--cafe-boda);
+    font-size: 1em;
+    font-weight: 400;
     padding-bottom: 5%;
 }
 
 .img-separador {
     width: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .bg-card-time {
